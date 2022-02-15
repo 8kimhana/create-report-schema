@@ -1,0 +1,140 @@
+id,name,description
+active1DayUsers,1-day active users,The number of distinct active users on your site or app within a 1 day period. The 1 day period includes the last day in the report's date range. Note: this is the same as Active Users.
+active28DayUsers,28-day active users,The number of distinct active users on your site or app within a 28 day period. The 28 day period includes the last day in the report's date range.
+active7DayUsers,7-day active users,The number of distinct active users on your site or app within a 7 day period. The 7 day period includes the last day in the report's date range.
+activeUsers,Active users,The number of distinct users who visited your site or app.
+adUnitExposure,Ad unit exposure,"The time that an ad unit was exposed to a user, in milliseconds."
+addToCarts,Add-to-carts,The number of times users added items to their shopping carts.
+averagePurchaseRevenue,Average purchase revenue,The average purchase revenue in the transaction group of events.
+averagePurchaseRevenuePerPayingUser,ARPPU,Average revenue per paying user (ARPPU) is the total purchase revenue per active user that logged a purchase event. The summary metric is for the time period selected.
+averageRevenuePerUser,ARPU,Average revenue per active user (ARPU). The summary metric is for the time period selected. ARPU includes AdMob estimated earnings.
+cartToViewRate,Cart-to-view rate,"The number of users who added a product(s) to their cart divided by the number of users who viewed the same product(s). This metric is returned as a fraction; for example, 0.1132 means 11.32% of users who viewed a product also added the same product to their cart."
+checkouts,Checkouts,The number of times users started the checkout process.
+cohortActiveUsers,Cohort active users,"The number of users in the cohort who are active in the time window corresponding to the cohort nth day/week/month. For example for the row where cohortNthWeek = 0001, this metric is the number of users (in the cohort) who are active in week 1."
+cohortTotalUsers,Cohort total users,"The total number of users in the cohort. This metric is the same value in every row of the report for each cohort. Because cohorts are defined by a shared acquisition date, cohortTotalUsers is the same as cohortActiveUsers for the cohort's selection date range. For report rows later than the ochort's selection range, it is typical for cohortActiveUsers to be smaller than cohortTotalUsers. This difference represents users from the cohort that were not active for the later date. cohortTotalUsers is commonly used in the metric expression cohortActiveUsers/cohortTotalUsers to compute a user retention fraction for the cohort. The relationship between activeUsers and totalUsers is not equivalent to the relationship between cohortActiveUsers and cohortTotalUsers."
+conversions,Conversions,"The count of conversion events. Events are marked as conversions at collection time; changes to an event's conversion marking apply going forward. You can mark any event as a conversion in Google Analytics, and some events (i.e. first_open, purchase) are marked as conversions by default. To learn more, see https://support.google.com/analytics/answer/9267568."
+crashAffectedUsers,Crash-affected users,"The number of users that logged a crash in this row of the report. For example if the report is time series by date, this metrics reports total users with at least one crash on this date. Crashes are events with the name ""app_exception""."
+crashFreeUsersRate,Crash-free users rate,"The number of users without crash events (in this row of the report) divided by the total number of users. This metric is returned as a fraction; for example, 0.9243 means 92.43% of users were crash-free."
+ecommercePurchases,Ecommerce purchases,The number of times users completed a purchase. This metric counts 'purchase' events; this metric does not count 'in_app_purchase' and subscription events.
+engagedSessions,Engaged sessions,"The number of sessions that lasted longer than 10 seconds, or had a conversion event, or had 2 or more screen views."
+engagementRate,Engagement rate,"The percentage of engaged sessions (Engaged sessions divided by Sessions). This metric is returned as a fraction; for example, 0.7239 means 72.39% of sessions were engaged sessions."
+eventCount,Event count,The count of events.
+eventCountPerUser,Event count per user,The average number of events per user (Event count divided by Active users).
+eventValue,Event value,The sum of the event parameter named 'value'.
+eventsPerSession,Events per session,The average number of events per session (Event count divided by Sessions).
+firstTimePurchasers,First time purchasers,The number of users that completed their first purchase event.
+itemListClickThroughRate,Item list click through rate,"The number of users who selected a list(s) divided by the number of users who viewed the same list(s). This metric is returned as a fraction; for example, 0.2145 means 21.45% of users who viewed a list also selected the same list."
+itemListClicks,Item list clicks,The number of times users clicked an item when it appeared in a list.
+itemListViews,Item list views,The number of times the item list was viewed.
+itemPromotionClickThroughRate,Item promotion click through rate,"The number of users who selected a promotion(s) divided by the number of users who viewed the same promotion(s). This metric is returned as a fraction; for example, 0.1382 means 13.82% of users who viewed a promotion also selected the promotion."
+itemPromotionClicks,Item promotion clicks,The number of times an item promotion was clicked.
+itemPromotionViews,Item promotion views,The number of times an item promotion was viewed.
+itemPurchaseQuantity,Item purchase quantity,The number of units for a single item included in purchase events.
+itemRevenue,Item revenue,The total revenue from items only. Item revenue is the product of its price and quantity. Item revenue excludes tax and shipping values.
+itemViews,Item views,The number of times the item details were viewed.
+newUsers,New users,The number of users who interacted with your site or launched your app for the first time (event triggered: first_open or first_visit).
+publisherAdClicks,Publisher ad clicks,The number of ad_click events.
+publisherAdImpressions,Publisher ad impressions,The number of ad_impression events.
+purchaseRevenue,Purchase revenue,"The sum of revenue from purchases made in your app or site. Purchase revenue sums the revenue for these events: purchase, ecommerce_purchase, in_app_purchase, app_store_subscription_convert, and app_store_subscription_renew."
+purchaseToViewRate,Purchase-to-view rate,"The number of users who purchased a product(s) divided by the number of users who viewed the same product(s). This metric is returned as a fraction; for example, 0.128 means 12.8% of users that viewed a product(s) also purchased the same product(s)."
+screenPageViews,Views,The number of app screens or web pages your users viewed. Repeated views of a single page or screen are counted. (screen_view + page_view events).
+sessions,Sessions,The number of sessions that began on your site or app (event triggered: session_start).
+sessionsPerUser,Sessions per user,The average number of sessions per user (Sessions divided by Active Users).
+totalAdRevenue,Total ad revenue,The total advertising revenue from both Admob and third-party sources.
+totalPurchasers,Total purchasers,The number of users that logged purchase events for the time period selected.
+totalRevenue,Total revenue,"The sum of revenue from purchases, subscriptions, and advertising (Purchase revenue plus Subscription revenue plus Ad revenue)."
+totalUsers,Total users,"The number of distinct users who have logged at least one event, regardless of whether the site or app was in use when that event was logged."
+transactions,Transactions,"The count of transaction events with purchase revenue. Transaction events are in_app_purchase, ecommerce_purchase, purchase, app_store_subscription_renew, app_store_subscription_convert, and refund."
+userEngagementDuration,User engagement,The total amount of time (in seconds) your website or app was in the foreground of users' devices.
+fullPageUrl,Full page URL,"The hostname, page path, and query string for web pages visited; for example, the fullPageUrl portion of https://www.example.com/store/contact-us?query_string=true is www.example.com/store/contact-us?query_string=true."
+googleAdsAccountName,Google Ads account name,The customer's descriptive name in Google Ads for the conversion event's campaign. Corresponding to customer.descriptive_name in the Google Ads API.
+googleAdsAdGroupId,Google Ads ad group ID,The ad group id attributed the conversion event.
+googleAdsAdGroupName,Google Ads ad group name,The ad group name attributed the conversion event.
+googleAdsAdNetworkType,Google Ads ad network type,"The advertising network type of the conversion. An enumeration which includes 'Google search', 'Search partners', 'Google Display Network', 'Youtube Search', 'Youtube Videos', 'Cross-network', 'Social', and '(universal campaign)'."
+googleAdsCreativeId,Google Ads creative ID,The ID of the Google Ads creative attributed to the conversion event. Creative IDs identify individual ads.
+googleAdsKeyword,Google Ads keyword text,"The matched keyword that led to the conversion event. Keywords are words or phrases describing your product or service that you choose to get your ad in front of the right customers. To learn more about Keywords, see https://support.google.com/google-ads/answer/6323."
+googleAdsQuery,Google Ads query,The search query that led to the conversion event.
+groupId,Group ID,The player group ID in a game for an event. Populated by the event parameter 'group_id'.
+hostName,Hostname,"Includes the subdomain and domain names of a URL; for example, the Host Name of www.example.com/contact.html is www.example.com."
+hour,Hour,The two-digit hour of the day that the event was logged. This dimension ranges from 0-23 and is reported in your property's timezone.
+isConversionEvent,Is conversion event,"The string 'true' if the event is a conversion. Events are marked as conversions at collection time; changes to an event's conversion marking apply going forward. You can mark any event as a conversion in Google Analytics, and some events (i.e. first_open, purchase) are marked as conversions by default. To learn more, see https://support.google.com/analytics/answer/9267568."
+itemBrand,Item brand,Brand name of the item.
+itemCategory,Item category,"The hierarchical category in which the item is classified. For example, in Apparel/Mens/Summer/Shirts/T-shirts, Apparel is the item category."
+itemCategory2,Item category 2,"The hierarchical category in which the item is classified. For example, in Apparel/Mens/Summer/Shirts/T-shirts, Mens is the item category 2."
+itemCategory3,Item category 3,"The hierarchical category in which the item is classified. For example, in Apparel/Mens/Summer/Shirts/T-shirts, Summer is the item category 3."
+itemCategory4,Item category 4,"The hierarchical category in which the item is classified. For example, in Apparel/Mens/Summer/Shirts/T-shirts, Shirts is the item category 4."
+itemCategory5,Item category 5,"The hierarchical category in which the item is classified. For example, in Apparel/Mens/Summer/Shirts/T-shirts, T-shirts is the item category 5."
+itemId,Item ID,The ID of the item.
+itemListId,Item list ID,The ID of the item list.
+itemListName,Item list name,The name of the item list.
+itemName,Item name,The name of the item.
+itemPromotionCreativeName,Item promotion creative name,The name of the item-promotion creative.
+itemPromotionId,Item promotion ID,The ID of the item promotion.
+itemPromotionName,Item promotion name,The name of the promotion for the item.
+language,Language,The language setting of the user's browser or device. e.g. English
+languageCode,Language code,The language setting (ISO 639) of the user's browser or device. e.g. 'en-us'
+linkClasses,Link classes,"The HTML class attribute for an outbound link. For example if a user clicks a link '', this dimension will return 'center'. Automatically populated if Enhanced Measurement is enabled. Populated by the event parameter 'link_classes'."
+linkDomain,Link domain,"The destination domain of the outbound link. For example if a user clicks a link '', this dimension will return 'youtube.com'. Automatically populated if Enhanced Measurement is enabled. Populated by the event parameter 'link_domain'."
+linkId,Link ID,"The HTML id attribute for an outbound link or file download. For example if a user clicks a link '', this dimension will return 'socialLinks'. Automatically populated if Enhanced Measurement is enabled. Populated by the event parameter 'link_id'."
+linkText,Link text,The link text of the file download. Automatically populated if Enhanced Measurement is enabled. Populated by the event parameter 'link_text'.
+linkUrl,Link URL,"The full url for an outbound link or file download. For example if a user clicks a link '', this dimension will return 'https://www.youtube.com/results?search_query=analytics'. Automatically populated if Enhanced Measurement is enabled. Populated by the event parameter 'link_url'."
+medium,Medium,The medium attributed to the conversion event.
+method,Method,The method by which an event was triggered. Populated by the event parameter 'method'.
+minute,Minute,The two-digit minute of the hour that the event was logged. This dimension ranges from 0-59 and is reported in your property's timezone.
+mobileDeviceBranding,Device brand,"Manufacturer or branded name (examples: Samsung, HTC, Verizon, T-Mobile)."
+mobileDeviceMarketingName,Device,The branded device name (examples: Galaxy S10 or P30 Pro).
+mobileDeviceModel,Mobile model,The mobile device model name (examples: iPhone X or SM-G950F).
+month,Month,"The month of the event, a two digit integer from 01 to 12."
+nthDay,Nth day,The number of days since the start of the date range.
+nthHour,Nth hour,The number of hours since the start of the date range. The starting hour is 0000.
+nthMinute,Nth minute,The number of minutes since the start of the date range. The starting minute is 0000.
+nthMonth,Nth month,The number of months since the start of a date range. The starting month is 0000.
+nthWeek,Nth week,A number representing the number of weeks since the start of a date range.
+nthYear,Nth year,The number of years since the start of the date range. The starting year is 0000.
+operatingSystem,Operating system,The operating systems used by visitors to your app or website. Includes desktop and mobile operating systems such as Windows and Android.
+operatingSystemVersion,OS version,"The operating system versions used by visitors to your website or app. For example, Android 10's version is 10, and iOS 13.5.1's version is 13.5.1."
+operatingSystemWithVersion,Operating system with version,"The operating system and version. For example, Android 10 or Windows 7."
+orderCoupon,Order coupon,Code for the order-level coupon.
+outbound,Outbound,Returns 'true' if the link lead to a site is not a part of the property’s domain. Automatically populated if Enhanced Measurement is enabled. Populated by the event parameter 'outbound'.
+pageLocation,Page location,"The protocol, hostname, page path, and query string for web pages visited; for example, the pageLocation portion of https://www.example.com/store/contact-us?query_string=true is https://www.example.com/store/contact-us?query_string=true. Populated by the event parameter 'page_location'."
+pagePath,Page path,"The portion of the URL between the hostname and query string for web pages visited; for example, the pagePath portion of https://www.example.com/store/contact-us?query_string=true is /store/contact-us."
+pagePathPlusQueryString,Page path + query string,"The portion of the URL following the hostname for web pages visited; for example, the pagePathPlusQueryString portion of https://www.example.com/store/contact-us?query_string=true is /store/contact-us?query_string=true."
+pageReferrer,Page referrer,The full referring URL including the hostname and path. This referring URL is the user's previous URL and can be this website's domain or other domains. Populated by the event parameter 'page_referrer'.
+pageTitle,Page title,The web page titles used on your site.
+percentScrolled,Percent scrolled,"The percentage down the page that the user has scrolled (for example, '90'). Automatically populated if Enhanced Measurement is enabled. Populated by the event parameter 'percent_scrolled'."
+platform,Platform,"The platform on which your app or website ran; for example, web, iOS, or Android. To determine a stream's type in a report, use both platform and streamId."
+region,Region,"The geographic region from which the user activity originated, derived from their IP address."
+screenResolution,Screen resolution,"The screen resolution of the user's monitor. For example, 1920x1080."
+searchTerm,Search term,"The term searched by the user. For example if the user visits '/some-page.html?q=some-term', this dimension returns 'some-term'. Automatically populated if Enhanced Measurement is enabled. Populated by the event parameter 'search_term'."
+sessionCampaignId,Session campaign ID,The marketing campaign id for a session. Includes Google Ads Campaigns.
+sessionCampaignName,Session campaign,The marketing campaign name for a session. Includes Google Ads and Manual Campaigns.
+sessionDefaultChannelGrouping,Session default channel grouping,"The session's default channel grouping is based primarily on source and medium. An enumeration which includes 'Direct', 'Organic Search', 'Paid Social', 'Organic Social', 'Email', 'Affiliates', 'Referral', 'Paid Search', 'Video', and 'Display'."
+sessionGoogleAdsAccountName,Session Google Ads account name,A customer's descriptive name in Google Ads. Corresponding to customer.descriptive_name in the Google Ads API.
+sessionGoogleAdsAdGroupId,Session Google Ads ad group ID,The Ad Group Id in Google Ads for a session.
+sessionGoogleAdsAdGroupName,Session Google Ads ad group name,The Ad Group Name in Google Ads for a session.
+sessionGoogleAdsAdNetworkType,Session Google Ads ad network type,"The advertising network that led to the session. An enumeration which includes 'Google search', 'Search partners', 'Google Display Network', 'Youtube Search', 'Youtube Videos', 'Cross-network', 'Social', and '(universal campaign)'."
+sessionGoogleAdsCreativeId,Session Google Ads creative ID,The ID of the Google Ads creative that lead to a session on your website or app. Creative IDs identify individual ads.
+sessionGoogleAdsKeyword,Session Google Ads keyword text,"The matched keyword that led to the session. Keywords are words or phrases describing your product or service that you choose to get your ad in front of the right customers. To learn more about Keywords, see https://support.google.com/google-ads/answer/6323."
+sessionGoogleAdsQuery,Session Google Ads query,The search query that led to the session.
+sessionMedium,Session medium,The medium that initiated a session on your website or app.
+sessionSource,Session source,The source that initiated a session on your website or app.
+sessionSourcePlatform,Session source platform,The source platform of the session's campaign. Please do not depend on this field returning 'Manual' for traffic that uses UTMs; this field will update from returning 'Manual' to returning '(not set)' for an upcoming feature launch.
+signedInWithUserId,Signed in with user ID,"The string 'yes' if the user signed in with the User-ID feature. To learn more about User-ID, see https://support.google.com/analytics/answer/9213390."
+source,Source,The source attributed to the conversion event.
+sourcePlatform,Source platform,The source platform of the conversion event's campaign. Please do not depend on this field returning 'Manual' for traffic that uses UTMs; this field will update from returning 'Manual' to returning '(not set)' for an upcoming feature launch.
+streamId,Stream ID,The numeric data stream identifier for your app or website.
+streamName,Stream name,The data stream name for your app or website.
+testDataFilterName,Test data filter name,"The name of data filters in testing state. You use data filters to include or exclude event data from your reports based on event-parameter values. To learn more, see https://support.google.com/analytics/answer/10108813."
+transactionId,Transaction ID,The ID of the ecommerce transaction.
+unifiedPagePathScreen,Page path and screen class,The page path (web) or screen class (app) on which the event was logged.
+unifiedPageScreen,Page path + query string and screen class,The page path and query string (web) or screen class (app) on which the event was logged.
+unifiedScreenClass,Page title and screen class,The page title (web) or screen class (app) on which the event was logged.
+unifiedScreenName,Page title and screen name,The page title (web) or screen name (app) on which the event was logged.
+userAgeBracket,Age,User age brackets.
+userGender,Gender,User gender.
+videoProvider,Video provider,"The source of the video (for example, 'youtube'). Automatically populated for embedded videos if Enhanced Measurement is enabled. Populated by the event parameter 'video_provider'."
+videoTitle,Video title,The title of the video. Automatically populated for embedded videos if Enhanced Measurement is enabled. Populated by the event parameter 'video_title'.
+videoUrl,Video URL,The url of the video. Automatically populated for embedded videos if Enhanced Measurement is enabled. Populated by the event parameter 'video_url'.
+visible,Visible,Returns 'true' if the content is visible. Automatically populated for embedded videos if Enhanced Measurement is enabled. Populated by the event parameter 'visible'.
+week,Week,"The week of the event, a two-digit number from 01 to 53. Each week starts on Sunday. January 1st is always in week 01. The first and last week of the year have fewer than 7 days in most years. Weeks other than the first and the last week of the year always have 7 days. For years where January 1st is a Sunday, the first week of that year and the last week of the prior year have 7 days."
+year,Year,The four-digit year of the event e.g. 2020.
