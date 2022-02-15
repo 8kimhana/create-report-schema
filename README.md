@@ -4,7 +4,7 @@ It uses python3 so make sure if you want to use this tool you have any version o
 
 ## How to use
 
-1. First you mush clone this repo locally 
+1. First you must clone this repo locally 
 2. Then you can cd into the directory
 3. Make sure you have the dimensions and metrics sperated into different .txt or .csv files
 4. Run this command in the directory
