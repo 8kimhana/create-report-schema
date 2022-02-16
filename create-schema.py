@@ -42,7 +42,7 @@ def formatInputCsv(input):
     setUpObj = setUp()
     for prop in setUpObj['extraProperties']:
         df[prop['propertyName']] = prop['propertyValue']
-    userInputTypesForRows(df)
+    df = userInputTypesForRows(df)
     compileAndPrintJSON(setUpObj, df)
 
 def setUp():
@@ -59,8 +59,8 @@ def compileAndPrintJSON(setUpObj, df):
     jsonResult = df.to_json(orient="records")
     jsonParsed = json.loads(jsonResult)
     setUpObj['jsonObj'][setUpObj['type']]=(jsonParsed)
-    jsonOutput = easygui.msgbox(msg=(json.dumps(setUpObj['jsonObj'], indent=4)),title='',ok_button='Close')
-    print(jsonOutput)
+    #jsonOutput = easygui.msgbox(msg=(json.dumps(setUpObj['jsonObj'], indent=4)),title='',ok_button='Close')
+    print(json.dumps(setUpObj['jsonObj'], indent=4))
 
 def userInputTypesForRows(df):
     output = easygui.ynbox(msg= 'Would you like to assign types to each of the rows yourself? If not all types will be of type string except dates which will have the Date type')
@@ -69,7 +69,7 @@ def userInputTypesForRows(df):
             message = "What type would you like {} to be".format(row["name"])
             type = easygui.enterbox(message,title='', default='')
             row["type"] = type
-    return
+    return df
 
 def getExtraProperties():
     properties = []
